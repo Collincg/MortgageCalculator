@@ -42,6 +42,7 @@ public class Mortgage_Calculator {
                 break;
             System.out.println("Enter a number between" + min + "and" + max);
             }
+        scanner.close();
         return value;
     }
 
